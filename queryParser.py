@@ -1,11 +1,19 @@
 import re
 from bs4 import BeautifulSoup
 
+# Abrimos el archivo donde esta el Source Code de la pagina
 pageFile = open("page.html", "r")
 pageSource = pageFile.read()
 
-regexQueryDivPeriodo = r"(<div class=\\\"js-recuadro_periodo recuadro\\\"(.*?)>)(.*?)(?=(<div id=\\\"js-reporte-vacio\\\")(.*?)<\\/div><\\/div>)"
+# Regex que encuentra todo texto entre <div class="js-recuadro_periodo recuadro" ...> (incluido) y <div id="js-reporte-vacio" ... </div></div> (no incluido)
+# En la pagina, cada periodo esta dentro de su propio <div> con la clase: "js-recuadro_periodo recuadro", 
+# entre periodo y periodo siempre hay un <div> de reporte vacio, asi que podemos utilizar toda su definicion como finalizador
+# usamos la opcion lazy de (.*?) para matchear un solo periodo y no todo dentro del inicio del primero y el finalizador del ultimo periodo
 
+#Tenemos que formatear usando literales \\, ya que toda las informacion estar escrita en un script de una linea que escribe su contenido directamente a la pagina.
+regexQueryDivPeriodo = r"(<div class=\\\"js-recuadro_periodo recuadro\\\"(.*?)>)(.*?)(?=(<div id=\\\"js-reporte-vacio\\\")(.*?)<\\/div>)"
+
+#Conseguimos
 matches = re.finditer(regexQueryDivPeriodo, pageSource)
 
 periodosLectivosDic = {}
