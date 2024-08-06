@@ -1,0 +1,437 @@
+{
+  "IDIOMSA040": {
+    "nombre": "Alemán 2.2 (IDIOMSA040)",
+    "opcional": true,
+    "correlativas": [
+      [
+        "IDIOMSA007",
+        "TODO"
+      ]
+    ]
+  },
+  "MATE820664": {
+    "nombre": "Algoritmos de Aprendizaje en Altas Dimensiones (MATE820664)",
+    "opcional": true,
+    "correlativas": [
+      [
+        "TODO"
+      ]
+    ]
+  },
+  "COMP930003": {
+    "nombre": "Algoritmos y Estructuras de Datos I (COMP930003)",
+    "opcional": false,
+    "correlativas": [
+      [
+        "COMP930001"
+      ]
+    ]
+  },
+  "COMP930004": {
+    "nombre": "Algoritmos y Estructuras de Datos II (COMP930004)",
+    "opcional": false,
+    "correlativas": [
+      [
+        "COMP930003"
+      ]
+    ]
+  },
+  "COMP930005": {
+    "nombre": "Algoritmos y Estructuras de Datos III (COMP930005)",
+    "opcional": false,
+    "correlativas": [
+      [
+        "COMP930004"
+      ]
+    ]
+  },
+  "COMP230001": {
+    "nombre": "Algoritmos y Estructuras de Datos (COMP230001)",
+    "opcional": false,
+    "correlativas": [
+      [
+        "COMP930001",
+        "COMP230008"
+      ]
+    ]
+  },
+  "GEOL930001": {
+    "nombre": "Ambientes Sedimentarios (GEOL930001)",
+    "opcional": false,
+    "correlativas": [
+      [
+        "TODO"
+      ]
+    ]
+  },
+  "QUIM570002": {
+    "nombre": "Anatomía, Histología y Fisiología Humanas (QUIM570002)",
+    "opcional": false,
+    "correlativas": [
+      [
+        "QUIM870014"
+      ]
+    ]
+  },
+  "LCDA210005": {
+    "nombre": "Análisis Avanzado (LCDA210005)",
+    "opcional": false,
+    "correlativas": [
+      [
+        "LCDA210003",
+        "LCDA210002"
+      ]
+    ]
+  },
+  "QUIM870022": {
+    "nombre": "Análisis Biológicos I (QUIM870022)",
+    "opcional": false,
+    "correlativas": [
+      [
+        "QUIM870014",
+        "QUIM570002"
+      ],
+      [
+        "QUIM870014",
+        [
+          [
+            "QUIM570002"
+          ],
+          [],
+          []
+        ],
+        "TODO"
+      ]
+    ]
+  },
+  "MATE820005": {
+    "nombre": "Análisis Complejo (MATE820005)",
+    "opcional": false,
+    "correlativas": [
+      [
+        "MATE820011",
+        "MATE820008",
+        "MATE820004"
+      ]
+    ]
+  },
+  "QUIM870017": {
+    "nombre": "Análisis Funcional Orgánico (QUIM870017)",
+    "opcional": false,
+    "correlativas": [
+      [
+        "QUIM870147",
+        "TODO"
+      ]
+    ]
+  },
+  "LCDA210001": {
+    "nombre": "Análisis I (LCDA210001)",
+    "opcional": false,
+    "correlativas": []
+  },
+  "COMP230003": {
+    "nombre": "Análisis I (COMP230003)",
+    "opcional": false,
+    "correlativas": []
+  },
+  "MATE820007": {
+    "nombre": "Análisis I (MATE820007)",
+    "opcional": false,
+    "correlativas": []
+  },
+  "COMP930007": {
+    "nombre": "Análisis II (COMP930007)",
+    "opcional": false,
+    "correlativas": []
+  },
+  "LCDA210003": {
+    "nombre": "Análisis II (LCDA210003)",
+    "opcional": false,
+    "correlativas": [
+      [
+        "LCDA210001"
+      ]
+    ]
+  },
+  "MATE820008": {
+    "nombre": "Análisis II (MATE820008)",
+    "opcional": false,
+    "correlativas": [
+      [
+        "MATE820007"
+      ]
+    ]
+  },
+  "ALIM190001": {
+    "nombre": "Análisis Matemático 1 (ALIM190001)",
+    "opcional": false,
+    "correlativas": []
+  },
+  "QUIM870002": {
+    "nombre": "Análisis Matemático 1 (QUIM870002)",
+    "opcional": false,
+    "correlativas": []
+  },
+  "QUIM870003": {
+    "nombre": "Análisis Matemático 2 (QUIM870003)",
+    "opcional": false,
+    "correlativas": [
+      [
+        "QUIM870002"
+      ]
+    ]
+  },
+  "QUIM570001": {
+    "nombre": "Análisis Matemático III (QUIM570001)",
+    "opcional": true,
+    "correlativas": [
+      [
+        "QUIM870003"
+      ]
+    ]
+  },
+  "MATE820010": {
+    "nombre": "Análisis Real (MATE820010)",
+    "opcional": true,
+    "correlativas": {
+      "tp": [
+        [
+          "MATE820022"
+        ]
+      ],
+      "final": [
+        [
+          "MATE820011"
+        ]
+      ]
+    }
+  },
+  "COMP930656": {
+    "nombre": "Aprendizaje Automático 2024 (COMP930656)",
+    "opcional": true,
+    "correlativas": {
+      "COMPUTACION": {
+        "tp": [
+          "COMP930012",
+          [
+            [
+              "COMP930005"
+            ],
+            [
+              "COMP230015"
+            ]
+          ]
+        ],
+        "final": []
+      },
+      "DATOS": {
+        "tp": [
+          "LCDA210008",
+          [
+            [
+              "COMP930005"
+            ],
+            [
+              "COMP230015"
+            ]
+          ]
+        ],
+        "final": []
+      }
+    }
+  },
+  "COMP930663": {
+    "nombre": "Aprendizaje Automático en Grafos (COMP930663)",
+    "opcional": true,
+    "correlativas": {
+      "GENERAL": {
+        "tp": [],
+        "final": [
+          "COMP930656"
+        ]
+      }
+    }
+  },
+  "QUIM870157": {
+    "nombre": "Aspectos Físicos y Químicos de la Ciencia de los Alimentos (QUIM870157)",
+    "opcional": true,
+    "correlativas": {
+      "GENERAL": {
+        "tp": [],
+        "final": [
+          "QUIM870020"
+        ]
+      }
+    }
+  },
+  "ACAD000003": {
+    "nombre": "Aspectos sociales del cáncer (ACAD000003)",
+    "opcional": true,
+    "correlativas": {
+      "GENERAL": {
+        "tp": [],
+        "final": []
+      }
+    }
+  },
+  "DOC8800099": {
+    "nombre": "Astrofísica (DOC8800099)",
+    "opcional": true,
+    "correlativas": {
+      "GENERAL": {
+        "tp": [],
+        "final": [
+          "FISI870010"
+        ]
+      }
+    }
+  },
+  "FISI870028": {
+    "nombre": "Astrofísica (FISI870028)",
+    "opcional": true,
+    "correlativas": {
+      "GENERAL": {
+        "tp": [],
+        "final": [
+          "FISI870010"
+        ]
+      }
+    }
+  },
+  "DOC8800726": {
+    "nombre": "Avances en Bromatología (DOC8800726)",
+    "opcional": true,
+    "correlativas": {
+      "GENERAL": {
+        "tp": [],
+        "final": []
+      }
+    }
+  },
+  "COMP930008": {
+    "nombre": "Base de Datos (COMP930008)",
+    "opcional": false,
+    "correlativas": {
+      "GENERAL": {
+        "tp": [],
+        "final": [
+          "COMP930017",
+          "COMP930009"
+        ]
+      }
+    }
+  },
+  "DOC8800289": {
+    "nombre": "Bases Anátomo-histológicas de la Fisiología Humana (DOC8800289)",
+    "opcional": true,
+    "correlativas": {
+      "GENERAL": {
+        "tp": [],
+        "final": []
+      }
+    }
+  },
+  "DOC8801189": {
+    "nombre": "Bases Celulares y Moleculares del Funcionamiento del Sistema Nervioso (DOC8801189)",
+    "opcional": true,
+    "correlativas": {
+      "GENERAL": {
+        "tp": [],
+        "final": []
+      }
+    }
+  },
+  "MMA1200011": {
+    "nombre": "Bioclimatología Agrícola y Agroclimatología (MMA1200011)",
+    "opcional": true,
+    "correlativas": {
+      "GENERAL": {
+        "tp": [],
+        "final": [
+          "TODO"
+        ]
+      }
+    }
+  },
+  "PALE050002": {
+    "nombre": "Biodiversidad de Animales (PALE050002)",
+    "opcional": false,
+    "correlativas": {
+      "GENERAL": {
+        "tp": [],
+        "final": []
+      }
+    }
+  },
+  "FISI870030": {
+    "nombre": "Biofísica (FISI870030)",
+    "opcional": false,
+    "correlativas": {
+      "GENERAL": {
+        "tp": [],
+        "final": []
+      }
+    }
+  },
+  "DOC8800065": {
+    "nombre": "Bioinformática (DOC8800065)",
+    "opcional": true,
+    "correlativas": {
+      "GENERAL": {
+        "tp": [],
+        "final": []
+      }
+    }
+  },
+  "QUIM870139": {
+    "nombre": "Biología Molecular (Químicos) (QUIM870139)",
+    "opcional": true,
+    "correlativas": {
+      "GENERAL": {
+        "tp": [],
+        "final": []
+      }
+    }
+  },
+  "DOC8801288": {
+    "nombre": "Biología Molecular y Celular de Microorganismos Eucariotas",
+    "opcional": true,
+    "correlativas": {
+      "GENERAL": {
+        "tp": [],
+        "final": []
+      }
+    }
+  },
+  "QUIM870025": {
+    "nombre": "Biología Molecular (QUIM870025)",
+    "opcional": true,
+    "correlativas": {
+      "GENERAL": {
+        "tp": [],
+        "final": []
+      }
+    }
+  },
+  "DOC8801301": {
+    "nombre": "Biología del Desarrollo Animal (DOC8801301)",
+    "opcional": true,
+    "correlativas": {
+      "GENERAL": {
+        "tp": [],
+        "final": []
+      }
+    }
+  },
+  "CEBI080019": {
+    "nombre": "Biorreactores I (CEBI080019)",
+    "opcional": true,
+    "correlativas": {
+      "GENERAL": {
+        "tp": [],
+        "final": []
+      }
+    }
+  }
+}
