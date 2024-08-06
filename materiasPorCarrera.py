@@ -1,5 +1,5 @@
 #IMPORTANTE: SE NECESITA TENER INSTALADO WEBDRIVER Y EL NAVEGADOR GOOGLE CHROME
-
+#ABRE UN NAVEGADOR EXTERNO Y EL PROCESO SE DEMORA UNOS 3 O 5 MINUTOS APROX
 #Librerias
 from selenium import webdriver #Busca la info a tiempo real (especie de bot)
 from selenium.webdriver.support.ui import Select #Sirve para utilizar los elementos de tipo Select
