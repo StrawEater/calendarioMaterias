@@ -1,0 +1,12 @@
+{
+    "ESPECIALIZACION_TEMPLATE_1":{
+        "codigo": "ESPECIALIZACION_TEMPLATE_1",
+        "nombre": "Template de Especializacion 1",
+        "materias": [""]
+    },
+    "ESPECIALIZACION_TEMPLATE_2":{
+        "codigo": "ESPECIALIZACION_TEMPLATE_2",
+        "nombre": "Template de Especializacion 2",
+        "materias": [""]
+    }
+}

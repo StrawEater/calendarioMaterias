@@ -1,0 +1,21 @@
+{
+    "MATERIA_OPTATIVA_TEMPLATE_1":{
+        "codigo": "MATERIA_OPTATIVA_TEMPLATE_1",
+        "correlatividades":[
+            {
+                "codigo": "CARRERA_TEMPLATE",
+                "materias": ["MATERIA_OBLIGATORIA_TEMPLATE_1"]
+            }
+        ]
+    },
+
+    "MATERIA_OPTATIVA_TEMPLATE_2":{
+        "codigo": "MATERIA_OPTATIVA_TEMPLATE_2",
+        "correlatividades":[
+            {
+                "codigo": "CARRERA_TEMPLATE",
+                "materias": ["MATERIA_OBLIGATORIA_TEMPLATE_1","MATERIA_OBLIGATORIA_TEMPLATE_2"]
+            }
+        ]
+    }
+}

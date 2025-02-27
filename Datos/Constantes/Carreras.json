@@ -1,0 +1,8 @@
+{
+    "CARRERA_TEMPLATE":{
+        "codigo": "CARRERA_TEMPLATE",
+        "nombre": "Template de Carrera",
+        "planEstudio": "PLAN_ESTUDIO_TEMPLATE",
+        "Especializacion": ["ESPECIALIZACION_TEMPLATE_1, ESPECIALIZACION_TEMPLATE_2"]
+    }
+}

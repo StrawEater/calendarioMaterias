@@ -11,7 +11,7 @@ import json #Guardar contenido
 
 
 #A RELLENAR (tomar el periodo lectivo correspondiente (LA PAGINA SE ACTUALIZA POR CUATRIMESTRE))
-periodo = "2do. Cuatrimestre 2024"
+periodo = "1er. Cuatrimestre 2025"
 
 #Se crea diccionario vacio donde se guardaran las materias segun cada carrera
 materias_por_carrera = {}

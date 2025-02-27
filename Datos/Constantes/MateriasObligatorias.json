@@ -1,0 +1,23 @@
+{
+    "MATERIA_OBLIGATORIA_TEMPLATE_1":{
+        "codigo": "MATERIA_OBLIGATORIA_TEMPLATE_1",
+        "nombre": "Template de Materia Obligatoria",
+        "carreras": ["CARRERA_TEMPLATE"],
+        "sudoMateria": false
+    },
+
+    "MATERIA_OBLIGATORIA_TEMPLATE_2":{
+        "codigo": "MATERIA_OBLIGATORIA_TEMPLATE_2",
+        "nombre": "Template de Materia Obligatoria",
+        "carreras": ["CARRERA_TEMPLATE"],
+        "sudoMateria": false
+    },
+
+    "SUDO_MATERIA_TEMPLATE":{
+        "codigo": "SUDO_MATERIA_TEMPLATE",
+        "nombre": "Template de Sudo Materia",
+        "carreras": ["CARRERA_TEMPLATE"],
+        "sudoMateria": true,
+        "opciones": ["MATERIA_OBLIGATORIA_TEMPLATE_1"," MATERIA_OBLIGATORIA_TEMPLATE_2"]
+    }
+}

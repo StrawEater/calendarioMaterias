@@ -1,0 +1,17 @@
+{
+    "PLAN_ESTUDIO_TEMPLATE":{
+        "codigo": "PLAN_ESTUDIO_TEMPLATE",
+        "nombre": "Template de Plan de Estudio",
+        "duracion": 2,
+        "cuatrimestres":[
+            [
+                "MATERIA_PRIMER_CUATRIMESTRE_1", 
+                "MATERIA_PRIMER_CUATRIMESTRE_2"
+            ],
+            [
+                "MATERIA_SEGUNDO_CUATRIMESTRE_1", 
+                "MATERIA_SEGUNDO_CUATRIMESTRE_2"
+            ]
+        ]
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "MATERIA_OPCIONAL_TEMPLATE_1":{
+        "codigo": "MATERIA_OPCIONAL_TEMPLATE_1",
+        "nombre": "Template de Materia Opcional 1",
+        "carreras": ["CARRERA_TEMPLATE"]
+    },
+
+    "MATERIA_OPCIONAL_TEMPLATE_2":{
+        "codigo": "MATERIA_OPCIONAL_TEMPLATE_2",
+        "nombre": "Template de Materia Opcional 2",
+        "carreras": ["CARRERA_TEMPLATE"]
+    }
+}
