@@ -19,5 +19,90 @@
         "carreras": ["CARRERA_TEMPLATE"],
         "sudoMateria": true,
         "opciones": ["MATERIA_OBLIGATORIA_TEMPLATE_1"," MATERIA_OBLIGATORIA_TEMPLATE_2"]
+    },
+
+    "COMP930001":{
+        "codigo": "COMP930001",
+        "nombre": "Algebra I",
+        "carreras": ["COMPU_2023"],
+        "sudoMateria": false
+    },
+
+    "COMP230008":{
+        "codigo": "COMP230008",
+        "nombre": "Introducción a la Programación",
+        "carreras": ["COMPU_2023"],
+        "sudoMateria": false
+    },
+
+    "COMP230003":{
+        "codigo": "COMP230003",
+        "nombre": "Análisis I",
+        "carreras": ["COMPU_2023"],
+        "sudoMateria": false
+    },
+
+    "COMP230001":{
+        "codigo": "COMP230001",
+        "nombre": "Algoritmos y Estructuras de Datos",
+        "carreras": ["COMPU_2023"],
+        "sudoMateria": false
+    },
+
+    "COMP230015":{
+        "codigo": "COMP230015",
+        "nombre": "Técnicas de Diseño de Algoritmos",
+        "carreras": ["COMPU_2023"],
+        "sudoMateria": false
+    },
+
+    "COMP230014":{
+        "codigo": "COMP230014",
+        "nombre": "Sistemas Digitales",
+        "carreras": ["COMPU_2023"],
+        "sudoMateria": false
+    },
+
+    "COMP930015":{
+        "codigo": "COMP930015",
+        "nombre": "Paradigmas de Programación",
+        "carreras": ["COMPU_2023"],
+        "sudoMateria": false
+    },
+
+    "COMP230009":{
+        "codigo": "COMP230009",
+        "nombre": "Lenguajes Formales, Autómatas y Computabilidad",
+        "carreras": ["COMPU_2023"],
+        "sudoMateria": false
+    },
+
+    "COMP230004":{
+        "codigo": "COMP230004",
+        "nombre": "Arquitectura y Organización de Computadores",
+        "carreras": ["COMPU_2023"],
+        "sudoMateria": false
+    },
+
+    "COMP230007":{
+        "codigo": "COMP230007",
+        "nombre": "Ingeniería de Software",
+        "carreras": ["COMPU_2023"],
+        "sudoMateria": false
+    },
+
+    "LCDA210006":{
+        "codigo": "LCDA210006",
+        "nombre": "Álgebra Lineal Computacional",
+        "carreras": ["COMPU_2023"],
+        "sudoMateria": false
+    },
+
+    "COMP230005":{
+        "codigo": "COMP230005",
+        "nombre": "Complejidad Computacional",
+        "carreras": ["COMPU_2023"],
+        "sudoMateria": false
     }
+    
 }

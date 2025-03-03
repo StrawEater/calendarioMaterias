@@ -17,5 +17,110 @@
                 "materias": ["MATERIA_OBLIGATORIA_TEMPLATE_1"]
             }
         ]
+    },
+
+    "COMP930001":{
+        "codigo": "COMP930001",
+        "correlatividades":[]
+    },
+
+    "COMP230008":{
+        "codigo": "COMP230008",
+        "correlatividades":[]
+    },
+
+    "COMP230003":{
+        "codigo": "COMP230003",
+        "correlatividades":[]
+    },
+
+    "COMP230001":{
+        "codigo": "COMP230001",
+        "correlatividades":[
+            {
+                "codigo": "COMPU_2023",
+                "materias": ["COMP930001", "COMP230008"]
+            }
+        ]
+    },
+
+    "COMP230015":{
+        "codigo": "COMP230015",
+        "correlatividades":[
+            {
+                "codigo": "COMPU_2023",
+                "materias": ["COMP230001"]
+            }
+        ]
+    },
+
+    "COMP230014":{
+        "codigo": "COMP230014",
+        "correlatividades":[
+            {
+                "codigo": "COMPU_2023",
+                "materias": ["COMP230008"]
+            }
+        ]
+    },
+
+    "COMP930015":{
+        "codigo": "COMP930015",
+        "correlatividades":[
+            {
+                "codigo": "COMPU_2023",
+                "materias": ["COMP230008"]
+            }
+        ]
+    },
+
+    "COMP230009":{
+        "codigo": "COMP230009",
+        "correlatividades":[
+            {
+                "codigo": "COMPU_2023",
+                "materias": ["COMP230001"]
+            }
+        ]
+    },
+
+    "COMP230004":{
+        "codigo": "COMP230004",
+        "correlatividades":[
+            {
+                "codigo": "COMPU_2023",
+                "materias": ["COMP230014"]
+            }
+        ]
+    },
+
+    "COMP230007":{
+        "codigo": "COMP230007",
+        "correlatividades":[
+            {
+                "codigo": "COMPU_2023",
+                "materias": ["COMP930015"]
+            }
+        ]
+    },
+
+    "LCDA210006":{
+        "codigo": "LCDA210006",
+        "correlatividades":[
+            {
+                "codigo": "COMPU_2023",
+                "materias": ["COMP230001"]
+            }
+        ]
+    },
+
+    "COMP230005":{
+        "codigo": "COMP230005",
+        "correlatividades":[
+            {
+                "codigo": "COMPU_2023",
+                "materias": ["COMP230009","COMP230015"]
+            }
+        ]
     }
 }

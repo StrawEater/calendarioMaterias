@@ -4,5 +4,11 @@
         "nombre": "Template de Carrera",
         "planEstudio": "PLAN_ESTUDIO_TEMPLATE",
         "Especializacion": ["ESPECIALIZACION_TEMPLATE_1, ESPECIALIZACION_TEMPLATE_2"]
+    },
+    "COMPU_2022":{
+        "codigo": "COMPU_2023",
+        "nombre": "Ciencias de la Computacion (PLAN 2023)",
+        "planEstudio": "PLAN_ESTUDIO_COMPU_2023",
+        "Especializacion": []
     }
 }

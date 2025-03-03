@@ -13,5 +13,20 @@
                 "MATERIA_SEGUNDO_CUATRIMESTRE_2"
             ]
         ]
+    },
+    "PLAN_ESTUDIO_COMPU_2023":{
+        "codigo": "PLAN_ESTUDIO_COMPU_2023",
+        "nombre": "Plan de Estudio 2023, Ciencias de la Computacion",
+        "duracion": 8,
+        "cuatrimestres":[
+            [
+                "MATERIA_PRIMER_CUATRIMESTRE_1", 
+                "MATERIA_PRIMER_CUATRIMESTRE_2"
+            ],
+            [
+                "MATERIA_SEGUNDO_CUATRIMESTRE_1", 
+                "MATERIA_SEGUNDO_CUATRIMESTRE_2"
+            ]
+        ]
     }
 }
