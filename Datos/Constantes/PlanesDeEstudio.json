@@ -20,27 +20,99 @@
         "duracion": 8,
         "cuatrimestres":[
             [
-                "MATERIA_PRIMER_CUATRIMESTRE_1", 
-                "MATERIA_PRIMER_CUATRIMESTRE_2"
+                "COMP930001", 
+                "COMP230008"
             ],
             [
-                "MATERIA_SEGUNDO_CUATRIMESTRE_1", 
-                "MATERIA_SEGUNDO_CUATRIMESTRE_2"
+                "COMP230003", 
+                "COMP230001"
+            ],
+            [
+                "COMP230015", 
+                "COMP230014",
+                "COMP930015"
+            ],
+            [
+                "COMP230009",
+                "COMP230004",
+                "COMP230007"
+            ],
+            [
+                "LCDA210006",
+                "COMP230005",
+                "COMP930017"
             ]
         ]
     },
     "PLAN_ESTUDIO_COMPU_1993":{
         "codigo": "PLAN_ESTUDIO_COMPU_1993",
         "nombre": "Plan de Estudio 1993, Ciencias de la Computacion",
-        "duracion": 9,
+        "duracion": 8,
         "cuatrimestres":[
             [
-                "MATERIA_PRIMER_CUATRIMESTRE_1", 
-                "MATERIA_PRIMER_CUATRIMESTRE_2"
+                "COMP930007", 
+                "COMP930001"
             ],
             [
-                "MATERIA_SEGUNDO_CUATRIMESTRE_1", 
-                "MATERIA_SEGUNDO_CUATRIMESTRE_2"
+                "COMP930016", 
+                "COMP930003"
+            ],
+            [
+                "COMP930013",
+                "COMP930004"
+            ],
+            [
+                "COMP930014",
+                "COMP930012"
+            ],
+            [
+                "COMP930017",
+                "COMP930005"
+            ],
+            [
+                "COMP930018",
+                "COMP930009",
+                "COMP930011"
+            ],
+            [
+                "COMP930008",
+                "COMP930015",
+                "COMP930019"
+            ],
+            [
+                "COMP930010"
+            ]
+        ]
+    },
+    "PLAN_ESTUDIO_DATOS":{
+        "codigo": "PLAN_ESTUDIO_DATOS",
+        "nombre": "Plan de Estudio 1993, Ciencias de Datos",
+        "duracion": 8,
+        "cuatrimestres":[
+            [
+                "LCDA210002", 
+                "COMP930003"
+            ],
+            [
+                "COMP930004", 
+                "LCDA210001"
+            ],
+            [
+                "LCDA210006",
+                "LCDA210004",
+                "LCDA210003"
+            ],
+            [
+                "LCDA210005"
+            ],
+            [
+                "COMP930005",
+                "LCDA210007"
+            ],
+            [
+                "LCDA210010",
+                "LCDA210009",
+                "LCDA210008"
             ]
         ]
     }
