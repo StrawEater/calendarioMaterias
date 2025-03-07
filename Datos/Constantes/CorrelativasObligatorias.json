@@ -70,6 +70,10 @@
             {
                 "codigo": "COMPU_2023",
                 "materias": ["COMP230008"]
+            },
+            {
+                "codigo": "COMPU_1993",
+                "materias": ["COMP930011"]
             }
         ]
     },
@@ -110,6 +114,10 @@
             {
                 "codigo": "COMPU_2023",
                 "materias": ["COMP230001"]
+            },
+            {
+                "codigo": "DATOS",
+                "materias": ["LCDA210002","COMP930004"]
             }
         ]
     },
@@ -120,6 +128,233 @@
             {
                 "codigo": "COMPU_2023",
                 "materias": ["COMP230009","COMP230015"]
+            }
+        ]
+    },
+
+    "COMP930007":{
+        "codigo": "COMP930007",
+        "correlatividades":[]
+    },
+
+    "COMP930016":{
+        "codigo": "COMP930016",
+        "correlatividades":[
+            {
+                "codigo": "COMPU_1993",
+                "materias": ["COMP930007"]
+            }
+        ]
+    },
+
+    "COMP930003":{
+        "codigo": "COMP930003",
+        "correlatividades":[
+            {
+                "codigo": "COMPU_1993",
+                "materias": ["COMP930001"]
+            }
+        ]
+    },
+
+    "COMP930013":{
+        "codigo": "COMP930013",
+        "correlatividades":[
+            {
+                "codigo": "COMPU_1993",
+                "materias": ["COMP930003"]
+            }
+        ]
+    },
+
+    "COMP930004":{
+        "codigo": "COMP930004",
+        "correlatividades":[
+            {
+                "codigo": "COMPU_1993",
+                "materias": ["COMP930003"]
+            },
+            {
+                "codigo": "DATOS",
+                "materias": ["COMP930003", "LCDA210002"]
+            }
+        ]
+    },
+
+    "COMP930014":{
+        "codigo": "COMP930014",
+        "correlatividades":[
+            {
+                "codigo": "COMPU_1993",
+                "materias": ["COMP930013"]
+            }
+        ]
+    },
+
+    "COMP930012":{
+        "codigo": "COMP930012",
+        "correlatividades":[
+            {
+                "codigo": "COMPU_1993",
+                "materias": ["COMP930003", "COMP930016"]
+            }
+        ]
+    },
+
+    "COMP930017":{
+        "codigo": "COMP930017",
+        "correlatividades":[
+            {
+                "codigo": "COMPU_1993",
+                "materias": ["COMP930004", "COMP930014"]
+            },
+            {
+                "codigo": "COMPU_2023",
+                "materias": ["COMP230004"]
+            }
+        ]
+    },
+
+    "COMP930005":{
+        "codigo": "COMP930005",
+        "correlatividades":[
+            {
+                "codigo": "COMPU_1993",
+                "materias": ["COMP930004"]
+            },
+            {
+                "codigo": "DATOS",
+                "materias": ["COMP930004"]
+            }
+        ]
+    },
+
+    "COMP930018":{
+        "codigo": "COMP930018",
+        "correlatividades":[
+            {
+                "codigo": "COMPU_1993",
+                "materias": ["COMP930017", "COMP930016"]
+            }
+        ]
+    },
+
+    "COMP930009":{
+        "codigo": "COMP930009",
+        "correlatividades":[
+            {
+                "codigo": "COMPU_1993",
+                "materias": ["COMP930005"]
+            }
+        ]
+    },
+
+    "COMP930011":{
+        "codigo": "COMP930011",
+        "correlatividades":[
+            {
+                "codigo": "COMPU_1993",
+                "materias": ["COMP930004"]
+            }
+        ]
+    },
+
+    "COMP930008":{
+        "codigo": "COMP930008",
+        "correlatividades":[
+            {
+                "codigo": "COMPU_1993",
+                "materias": ["COMP930017", "COMP930009"]
+            }
+        ]
+    },
+
+    "COMP930019":{
+        "codigo": "COMP930019",
+        "correlatividades":[
+            {
+                "codigo": "COMPU_1993",
+                "materias": ["COMP930011"]
+            }
+        ]
+    },
+
+    "COMP930010":{
+        "codigo": "COMP930010",
+        "correlatividades":[
+            {
+                "codigo": "COMPU_1993",
+                "materias": ["COMP930009", "COMP930015", "COMP930017"]
+            }
+        ]
+    },
+
+    "LCDA210002":{
+        "codigo": "LCDA210002",
+        "correlatividades":[]
+    },
+
+    "LCDA210004":{
+        "codigo": "LCDA210004",
+        "correlatividades":[
+            {
+                "codigo": "DATOS",
+                "materias": ["COMP930003"]
+            }
+        ]
+    },
+
+    "LCDA210001":{
+        "codigo": "LCDA210001",
+        "correlatividades":[]
+    },
+
+    "LCDA210003":{
+        "codigo": "LCDA210003",
+        "correlatividades":[
+            {
+                "codigo": "DATOS",
+                "materias": ["LCDA210001"]
+            }
+        ]
+    },
+
+    "LCDA210005":{
+        "codigo": "LCDA210005",
+        "correlatividades":[
+            {
+                "codigo": "DATOS",
+                "materias": ["LCDA210003", "LCDA210002"]
+            }
+        ]
+    },
+
+    "LCDA210010":{
+        "codigo": "LCDA210010",
+        "correlatividades":[
+            {
+                "codigo": "DATOS",
+                "materias": ["LCDA210006", "LCDA210005"]
+            }
+        ]
+    },
+
+    "LCDA210009":{
+        "codigo": "LCDA210009",
+        "correlatividades":[
+            {
+                "codigo": "DATOS",
+                "materias": ["LCDA210006", "COMP930005", "LCDA210003"]
+            }
+        ]
+    },
+
+    "LCDA210008":{
+        "codigo": "LCDA210008",
+        "correlatividades":[
+            {
+                "codigo": "DATOS",
+                "materias": ["LCDA210006", "LCDA210004", "LCDA210007"]
             }
         ]
     }

@@ -10,5 +10,19 @@
         "nombre": "Ciencias de la Computacion (PLAN 2023)",
         "planEstudio": "PLAN_ESTUDIO_COMPU_2023",
         "Especializacion": []
+    },
+
+    "COMPU_1993":{
+        "codigo": "COMPU_1993",
+        "nombre": "Ciencias de la Computacion (PLAN 1993)",
+        "planEstudio": "PLAN_ESTUDIO_COMPU_1993",
+        "Especializacion": []
+    },
+    
+    "DATOS":{
+        "codigo": "DATOS",
+        "nombre": "Ciencias de Datos",
+        "planEstudio": "PLAN_ESTUDIO_DATOS",
+        "Especializacion": []
     }
 }

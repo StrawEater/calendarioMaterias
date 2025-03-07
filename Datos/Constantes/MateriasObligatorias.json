@@ -24,7 +24,7 @@
     "COMP930001":{
         "codigo": "COMP930001",
         "nombre": "Algebra I",
-        "carreras": ["COMPU_2023"],
+        "carreras": ["COMPU_2023", "COMPU_1993"],
         "sudoMateria": false
     },
 
@@ -66,7 +66,7 @@
     "COMP930015":{
         "codigo": "COMP930015",
         "nombre": "Paradigmas de Programación",
-        "carreras": ["COMPU_2023"],
+        "carreras": ["COMPU_2023", "COMPU_1993"],
         "sudoMateria": false
     },
 
@@ -94,7 +94,7 @@
     "LCDA210006":{
         "codigo": "LCDA210006",
         "nombre": "Álgebra Lineal Computacional",
-        "carreras": ["COMPU_2023"],
+        "carreras": ["COMPU_2023", "DATOS"],
         "sudoMateria": false
     },
 
@@ -103,6 +103,173 @@
         "nombre": "Complejidad Computacional",
         "carreras": ["COMPU_2023"],
         "sudoMateria": false
+    },
+
+    "COMP930007":{
+        "codigo": "COMP930007",
+        "nombre": "Análisis II",
+        "carreras": ["COMPU_1993"],
+        "sudoMateria": false
+    },
+
+    "COMP930016":{
+        "codigo": "COMP930016",
+        "nombre": "Probabilidades y Estadística",
+        "carreras": ["COMPU_1993"],
+        "sudoMateria": false
+    },
+
+    "COMP930003":{
+        "codigo": "COMP930003",
+        "nombre": "Algoritmos y Estructuras de Datos I",
+        "carreras": ["COMPU_1993", "DATOS"],
+        "sudoMateria": false
+    },
+
+    "COMP930013":{
+        "codigo": "COMP930013",
+        "nombre": "Organización del Computador I",
+        "carreras": ["COMPU_1993"],
+        "sudoMateria": false
+    },
+
+    "COMP930004":{
+        "codigo": "COMP930004",
+        "nombre": "Algoritmos y Estructuras de Datos II",
+        "carreras": ["COMPU_1993", "DATOS"],
+        "sudoMateria": false
+    },
+
+    "COMP930014":{
+        "codigo": "COMP930014",
+        "nombre": "Organización del Computador II",
+        "carreras": ["COMPU_1993"],
+        "sudoMateria": false
+    },
+
+    "COMP930012":{
+        "codigo": "COMP930012",
+        "nombre": "Métodos Numéricos",
+        "carreras": ["COMPU_1993"],
+        "sudoMateria": false
+    },
+
+    "COMP930017":{
+        "codigo": "COMP930017",
+        "nombre": "Sistemas Operativos",
+        "carreras": ["COMPU_1993", "COMPU_2023"],
+        "sudoMateria": false
+    },
+
+    "COMP930005":{
+        "codigo": "COMP930005",
+        "nombre": "Algoritmos y Estructuras de Datos III",
+        "carreras": ["COMPU_1993", "DATOS"],
+        "sudoMateria": false
+    },
+
+    "COMP930018":{
+        "codigo": "COMP930018",
+        "nombre": "Teoría de las Comunicaciones",
+        "carreras": ["COMPU_1993"],
+        "sudoMateria": false
+    },
+
+    "COMP930009":{
+        "codigo": "COMP930009",
+        "nombre": "Ingeniería de Software I",
+        "carreras": ["COMPU_1993"],
+        "sudoMateria": false
+    },
+
+    "COMP930011":{
+        "codigo": "COMP930011",
+        "nombre": "Lógica y Computabilidad",
+        "carreras": ["COMPU_1993"],
+        "sudoMateria": false
+    },
+
+    "COMP930008":{
+        "codigo": "COMP930008",
+        "nombre": "Base de Datos",
+        "carreras": ["COMPU_1993"],
+        "sudoMateria": false
+    },
+
+    "COMP930019":{
+        "codigo": "COMP930019",
+        "nombre": "Teoría de Lenguajes",
+        "carreras": ["COMPU_1993"],
+        "sudoMateria": false
+    },
+
+    "COMP930010":{
+        "codigo": "COMP930010",
+        "nombre": "Ingeniería de Software II",
+        "carreras": ["COMPU_1993"],
+        "sudoMateria": false
+    },
+
+    "LCDA210002":{
+        "codigo": "LCDA210002",
+        "nombre": "Álgebra I",
+        "carreras": ["DATOS"],
+        "sudoMateria": false
+    },
+
+    "LCDA210004":{
+        "codigo": "LCDA210004",
+        "nombre": "Laboratorio de Datos",
+        "carreras": ["DATOS"],
+        "sudoMateria": false
+    },
+
+    "LCDA210001":{
+        "codigo": "LCDA210001",
+        "nombre": "Análisis I",
+        "carreras": ["DATOS"],
+        "sudoMateria": false
+    },
+
+    "LCDA210003":{
+        "codigo": "LCDA210003",
+        "nombre": "Análisis II",
+        "carreras": ["DATOS"],
+        "sudoMateria": false
+    },
+
+    "LCDA210005":{
+        "codigo": "LCDA210005",
+        "nombre": "Análisis Avanzado",
+        "carreras": ["DATOS"],
+        "sudoMateria": false
+    },
+
+    "LCDA210007":{
+        "codigo": "LCDA210007",
+        "nombre": "Probabilidad",
+        "carreras": ["DATOS"],
+        "sudoMateria": false
+    },
+
+    "LCDA210010":{
+        "codigo": "LCDA210010",
+        "nombre": "Introducción al Modelado Continuo",
+        "carreras": ["DATOS"],
+        "sudoMateria": false
+    },
+
+    "LCDA210009":{
+        "codigo": "LCDA210009",
+        "nombre": "Introducción a la Investigación Operativa y Optimización",
+        "carreras": ["DATOS"],
+        "sudoMateria": false
+    },
+
+    "LCDA210008":{
+        "codigo": "LCDA210008",
+        "nombre": "Introducción a la Estadística y Ciencia de Datos",
+        "carreras": ["DATOS"],
+        "sudoMateria": false
     }
-    
 }

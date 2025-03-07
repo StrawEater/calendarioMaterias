@@ -28,5 +28,20 @@
                 "MATERIA_SEGUNDO_CUATRIMESTRE_2"
             ]
         ]
+    },
+    "PLAN_ESTUDIO_COMPU_1993":{
+        "codigo": "PLAN_ESTUDIO_COMPU_1993",
+        "nombre": "Plan de Estudio 1993, Ciencias de la Computacion",
+        "duracion": 9,
+        "cuatrimestres":[
+            [
+                "MATERIA_PRIMER_CUATRIMESTRE_1", 
+                "MATERIA_PRIMER_CUATRIMESTRE_2"
+            ],
+            [
+                "MATERIA_SEGUNDO_CUATRIMESTRE_1", 
+                "MATERIA_SEGUNDO_CUATRIMESTRE_2"
+            ]
+        ]
     }
 }
