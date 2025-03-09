@@ -273,49 +273,62 @@
         "sudoMateria": false
     },
 
-    "SUDO_QUIM870005": {
-        "codigo": ["QUIM870005"],
+    "QUIM870005": {
+        "codigo": "QUIM870005",
         "nombre": "Química General e Inorgánica I",
         "carreras": ["QUIMICA","DATOS"],
-        "sudoMateria": true,
-        "opciones": []
+        "sudoMateria": false
     },
 
-    "SUDO_BIOL840008": {
-        "codigo": ["BIOL840008"],
+    "BIOL840008": {
+        "codigo": "BIOL840008",
         "nombre": "Introducción a la Biología Molecular y Celular",
         "carreras": ["BIOLOGIA","DATOS"],
-        "sudoMateria": true,
-        "opciones": []
+        "sudoMateria": false
     },
 
-    "SUDO_BIOL190001": {
+    "BIOL190001": {
         "codigo": ["BIOL190001"],
         "nombre": "Mecánica y Termodinámica",
         "carreras": ["BIOLOGIA","DATOS"],
-        "sudoMateria": true,
-        "opciones": []
+        "sudoMateria": false
     },
+
+    "FISI870014": {
+        "codigo": "FISI870014",
+        "nombre": "Laboratorio 1",
+        "carreras": ["FISICA","DATOS"],
+        "sudoMateria": false
+    },
+
+    "FISI870007": {
+        "codigo": "FISI870007",
+        "nombre": "Física 1",
+        "carreras": ["FISICA","DATOS"],
+        "sudoMateria": false
+    },
+
+    "OCEA930015": {
+        "codigo": "OCEA930015",
+        "nombre": "Oceanografía General",
+        "carreras": ["OCEANOGRAFIA","DATOS"],
+        "sudoMateria": false
+    },
+
+    "ATMO890027": {
+        "codigo": "ATMO890027",
+        "nombre": "Meteorología General",
+        "carreras": ["METEOROLOGIA","DATOS"],
+        "sudoMateria": false
+    },
+
 
     "SUDO_FISI870007_FISI870014": {
         "codigo": ["FISI870007","FISI870014"],
         "nombre": "Sudo_Física",
         "carreras": ["DATOS"],
         "sudoMateria": true,
-        "opciones": [
-            {
-                "codigo": "FISI870007",
-                "nombre": "Física 1",
-                "carreras": ["FISICA", "DATOS"],
-                "sudoMateria": false
-            },
-            {
-                "codigo": "FISI870014",
-                "nombre": "Laboratorio 1",
-                "carreras": ["FISICA", "DATOS"],
-                "sudoMateria": false
-            }
-        ]
+        "opciones": ["FISI870007","FISI870014"]
     },
 
     "SUDO_OCEA930015_FISI870014": {
@@ -323,20 +336,7 @@
         "nombre": "Sudo_Oceanografía",
         "carreras": ["DATOS"],
         "sudoMateria": true,
-        "opciones": [
-            {
-                "codigo": "OCEA930015",
-                "nombre": "Oceanografía General",
-                "carreras": ["OCEANOGRAFIA","DATOS"],
-                "sudoMateria": false
-            },
-            {
-                "codigo": "FISI870014",
-                "nombre": "Laboratorio 1",
-                "carreras": ["FISICA", "DATOS"],
-                "sudoMateria": false
-            }
-        ]
+        "opciones": ["OCEA930015", "FISI870014"]
     },
     
     "SUDO_ATMO890027_FISI870014": {
@@ -344,19 +344,6 @@
         "nombre": "Sudo_Meteorología",
         "carreras": ["DATOS"],
         "sudoMateria": true,
-        "opciones": [
-            {
-                "codigo": "ATMO890027",
-                "nombre": "Meteorología General ",
-                "carreras": ["METEOROLOGIA","DATOS"],
-                "sudoMateria": false
-            },
-            {
-                "codigo": "FISI870014",
-                "nombre": "Laboratorio 1",
-                "carreras": ["FISICA", "DATOS"],
-                "sudoMateria": false
-            }
-        ]
+        "opciones": ["ATMO890027", "FISI870014"]
     }
 }
